@@ -37,7 +37,7 @@ int main(void)
             }
         }
 
-      cout << counter << " " << fabs(sum) << endl;
+      printf("%d %.1f \n", counter , fabs(sum));
       counter++;
 
     }
